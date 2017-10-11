@@ -1,0 +1,411 @@
+/* Default Layout: 992px.  */
+.logo{
+    width: 20%;
+    padding: 1% 0% 0% 9%;
+}
+.navigation{
+    width: 50%;
+    padding-left:5%; 
+}
+#selectnav1{
+    display: none;
+}
+.one, .two, .three{
+	margin: 0 auto;
+	font-size: 15px;
+	color: black;
+	background: #EEEEEE;
+	text-align: center;
+	word-spacing: 2px; 
+	width: 30%;
+	padding: 3% 1% 4% 1%;
+}
+.slider{
+    padding-top: 5%;
+}
+.about{
+    width: 40%;
+}
+.count1{
+    width: 28%;
+}
+/*.service1, .service2, .service3, .service4, .service5, .service6, .service7, .service8{
+    width: 25%;
+}*/
+.service1{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service2{  
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service3{  
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+     text-align: center;
+    color: #FFF;
+}
+.service4{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service5{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service6{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service7{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service8{
+    width: 25%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service_area h2{
+    font-size: 21px;
+}
+span i.icon {
+    font-size: 5em;
+    color: #FFF;
+}
+.contact_form {
+    width: 50%;
+    padding:5% 0%;
+    margin-left: 8%;
+    background-color: #EEEEEE;
+    text-align: center;
+    border-radius: 10px;
+}
+.tt{
+    width: 30%;
+    margin-right:8%
+}
+.copy{
+    width: 50%;
+}
+.social_media{
+    width: 50%;
+}
+.pp{
+    width: 25%;
+}
+
+
+/* Tablet Layout: 768px. */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider{
+        padding-top: 8%;
+    }
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+
+@media only screen and (max-width: 767px) {
+
+.slider{
+    padding-top: 20%;
+}
+.logo{
+    width: 20%;
+    padding:1% 0% 0% 0%;
+}
+.navigation{
+    width: 45%;
+    padding:6% 0% 0% 0%;
+}
+#selectnav1{
+    display: block;
+}
+#nav{
+    display:none;
+}
+.one, .two, .three{
+	font-size: 15px;
+	color: black;
+	background: #EEEEEE;
+	text-align: center;
+	word-spacing: 2px; 
+	width: 90%;
+	padding: 9% 5% 16% 5%;
+	margin: 4% 0%;
+}
+.about{
+	width: 90%;
+}
+.count1{
+    width: 90%;
+    margin-bottom: 2%;
+}
+.service_area h2{
+	font-size: 16px;
+}
+span i.icon {
+    font-size: 2em;
+    color: #FFF;
+}
+.service1{
+	width: 100%;
+	padding: 50px 0 50px 0;
+	background: #eb0031;
+	box-shadow: 0 1px 0px 0 #000;
+	text-align: center;
+	color: #FFF;
+}
+.service2{  
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service3{  
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+     text-align: center;
+    color: #FFF;
+}
+.service4{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service5{
+	width: 100%;
+	padding: 50px 0 50px 0;
+	background: #eb0031;
+	box-shadow: 0 1px 0px 0 #000;
+	text-align: center;
+	color: #FFF;
+}
+.service6{  
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service7{  
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+     text-align: center;
+    color: #FFF;
+}
+.service8{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.contact_form {
+    width: 100%;
+    padding:5% 0%;
+    margin-left:1%;
+    background-color: #EEEEEE;
+    text-align: center;
+    border-radius: 10px;
+}
+.tt{
+    width: 100%;
+    margin-right: 2%;
+    margin-top: 4%;
+}
+.copy{
+    width: 100%;
+}
+.social_media{
+    width: 100%;
+}
+.about{
+    width: 90%;
+}
+.pp{
+    width: 100%;
+    padding: 5% 0%;
+}
+
+
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.logo{
+    width: 30%;
+    padding:1% 0% 0% 5%;
+}
+.navigation{
+    width: 30%;
+    padding:4% 0% 0% 0%;
+}
+#selectnav1{
+    display: block;
+}
+#nav{
+    display:none;
+}
+.slider{
+    padding-top: 10%;
+}
+.one, .two, .three{
+	font-size: 15px;
+	color: black;
+	background: #EEEEEE;
+	text-align: center;
+	word-spacing: 2px; 
+	width: 70%;
+	padding: 5% 3% 7% 3%;
+	margin: 0% 0% 2% 10%;;
+}
+.about{
+    width: 90%;
+}
+.service_area h2{
+    font-size: 16px;
+}
+span i.icon {
+	font-size: 2em;
+	color: #FFF;
+}
+.count1{
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.service1{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service2{  
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service3{  
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service4{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service5{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.service6{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service7{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #ff0035;
+    text-align: center;
+    color: #FFF;
+}
+.service8{
+    width: 50%;
+    padding: 50px 0 50px 0;
+    background: #eb0031;
+    box-shadow: 0 1px 0px 0 #000;
+    text-align: center;
+    color: #FFF;
+}
+.contact_form {
+    width: 70%;
+    padding:5% 0%;
+    margin-left: 15%; 
+    background-color: #EEEEEE;
+    text-align: center;
+    border-radius: 10px;
+}
+.tt{
+    width: 70%;
+	margin-right: 14%;
+	margin-top: 4%;
+}
+.about{
+    width: 90%;
+}
+.pp{
+    width: 50%;
+    padding: 5% 0%;
+}
+.copy{
+    width: 40%;
+}
+.social_media{
+    width: 60%;
+}
+
+
+}
